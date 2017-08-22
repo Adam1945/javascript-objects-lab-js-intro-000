@@ -9,7 +9,7 @@ function updateObjectWithKeyAndValue(recipes, key, value) {
   return recipes;
 }
 
-function updateObjectWithKeyAndValue(object, key, value) {
-  object.assign({}, recipes, [key] = value);
+function updateObjectWithKeyAndValue(recipes, key, value) {
+  Object.assign({}, recipes, [key] = value);
   return object;
 }
