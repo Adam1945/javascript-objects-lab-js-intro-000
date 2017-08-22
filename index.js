@@ -3,3 +3,7 @@ var recipes = {
   'recipe2': 'milk',
   'recipe3': 'flour'
 }
+
+function updateObjectWithKeyAndValue(recipes, key, value) {
+  return recipes[key] = value;
+}
